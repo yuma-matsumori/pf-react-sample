@@ -1,0 +1,9 @@
+footer {
+  width: calc(var(--width-size) - var(--side-margin) * 2);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(var(--side-margin) * 2 + 56px);
+  border-top: var(--line-weight) solid var(--line-color);
+}

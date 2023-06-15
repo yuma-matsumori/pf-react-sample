@@ -1,0 +1,18 @@
+header {
+  width: calc(var(--width-size) - var(--side-margin) * 2);
+  margin: auto;
+  height: var(--height-size);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo:hover {
+  background-color: var(--hover-bg-color);
+  color: var(--hover-color);
+}
+
+.header__menu:hover {
+  background-color: var(--hover-bg-color);
+  color: var(--hover-color);
+}

@@ -1,0 +1,12 @@
+.list__item {
+  height: var(--height-list);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: var(--line-weight) solid var(--line-color);
+}
+
+.list__item:hover > .list__title {
+  background-color: var(--hover-bg-color);
+  color: var(--hover-color);
+}

@@ -1,0 +1,41 @@
+.btn__pos {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-flex;
+  width: var(--btn-width);
+  flex-grow: 1;
+  height: 56px;
+  border: 1px solid #e6e6e6;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  background-color: var(--hover-bg-color);
+  color: var(--hover-color);
+}
+
+.btn__bottom {
+  margin-bottom: var(--side-margin);
+}
+
+.btn__margin-R {
+  margin-right: var(--side-margin);
+}
+
+.BtnSection {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc((var(--btn-width) * 2) + var(--side-margin));
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  gap: var(--side-margin) var(--side-margin);
+}
